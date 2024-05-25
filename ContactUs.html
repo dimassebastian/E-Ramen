@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="cobaheader.css">
+   
+</head>
+
+<body>
+    <header>
+        <img src="foto/Group 2.png" alt="">
+        <ul>
+            <li><a href="index.html">Menu</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="product.html">Our Products</a></li>
+            <li><a href="PromotionPage.html">Special Offers</a></li>
+            
+        </ul>
+    </header>
+  
+
+    <div class="badan">
+        
+        <div class="kotak"><img src="foto/gambar grup.png" alt="">
+         <div class="kotakputih">
+            <section class="contact" id="contact">
+                <div class="judul">
+                    <h1>Send Us a Message</h1>
+                </div>
+                <div class="isi">
+                    <form onsubmit="return validateForm()">
+                        <div class="inputBox">
+                            <label for="name">Full name</label><br>
+                            <input class="inputBox" type="text" id="name" name="name"><br>
+                            <span class="error" id="nameError"></span>
+                           
+                        </div>
+                        <div class="inputBox">
+                            <label for="email">Email Address</label><br>
+                            <input class="inputBox" type="text" id="email" name="email"><br>
+                            <span class="error" id="emailError"></span>
+                           
+                        </div>
+                        <div class="inputBox">
+                            <label for="phone">Phone Number</label><br>
+                            <input class="inputBox" type="text" id="phone" name="phone"><br>
+                            <span class="error" id="phoneError"></span>
+                        
+                        </div>
+                        <label for="preferences">Ramen / Dry Ramen</label>
+                        <select class="inputBox" name="Preferences" id="preferences">
+                            <option value="Ramen">Ramen</option>
+                            <option value="Dry-Ramen">Dry Ramen</option>
+                        </select>
+                        <div class="inputBox">
+                            <label for="message">Message</label><br>
+                            <input class="inputBox" type="text" id="message" name="message"><br>
+                            <span class="error" id="messageError"></span>
+                        </div>
+                        <label class="agreement">
+                            <input type="checkbox" name="preferences[]" value="option1">I Agree to Receive Newsletter.</label><br>
+                        <span class="error" id="preferencesError"></span><br>
+                        <div class="submit">
+                            <input class="btn" type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>        
+   
+
+    <footer class="footer">
+        <div class="foot-left">
+            <a href="AboutUs.html" class="About us">
+                About us
+                <br>
+                <br>
+            </a>
+            <p class="bawah">
+                Our Location
+                <br>
+                Jl.Panjang No. 32 Blok A
+            </p>
+
+          
+            </div>
+            <div class="foot-right">
+                <a href="ContactUs.html" class="Contact Us">
+                    Contact Us
+                    <br>
+                    <br>
+
+                </a>
+                <p class="kananbawah">
+                    Opening Hours
+                    <br>
+                    9:00 - 23:00
+                </p>
+        </div>
+   </footer>
+
+   
+   <script src="script.js"> </script>
+</body>
+</html>

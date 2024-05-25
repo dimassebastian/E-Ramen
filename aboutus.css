@@ -1,0 +1,167 @@
+
+@font-face {
+    font-family: htt;
+    src: url(font/HTOWERT.TTF);
+}
+@font-face {
+    font-family: antiP;
+    src: url(font/Antipasto-Pro-ExtraBold-trial.ttf);
+}
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+}
+.header{
+   
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 111px;
+    
+}
+
+.Nav{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.Nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.Nav a:hover{
+    color: blueviolet;
+}
+
+
+.logo{
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 168px;
+    height: 43px;
+
+}
+
+body{
+    background-color: black;
+}
+
+.footer{
+    font-family: htt;
+    color: white;
+    background-color: black;
+    width: 100vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-size: small;
+}
+
+
+
+.bawah{
+    padding-top: 10px;
+}
+
+.kananbawah{
+    padding-top: 10px;
+    text-align: left;
+}
+
+.kotakputih{
+    padding-top: 10%;
+    margin: auto; 
+    background-color: white;
+    width: 1280px;
+    height: 2500px;
+}
+
+.konten1{
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+.konten2{
+    display: flex;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.konten2 img{
+
+    margin-top: 15%;
+    margin-left: 30px;
+}
+
+.konten2 h2{
+    font-family: htt;
+    width: 500px;
+    font-size: 64px;
+    text-align: center;
+    margin-left: 130px;
+    margin-bottom: 100px;
+}
+
+
+
+.konten2 p{
+    font-family: htt;
+    width: 600px;
+    font-size: 36px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.konten3{
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.konten3 h2{
+    font-family: htt;
+    width: 500px;
+    font-size: 64px;
+    text-align: center;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+.konten3 p{
+    font-family: htt;
+    width: 600px;
+    font-size: 36px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.konten3 img{
+    width: 360px;
+    height: 365px;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+.Judul{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.Judul h2{
+    font-family: htt;
+    color: black;
+    font-size: 64px;
+}
+

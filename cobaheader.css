@@ -1,0 +1,56 @@
+@font-face {
+    font-family: htt;
+    src: url(font/HTOWERT.TTF);
+}
+@font-face {
+    font-family: antiP;
+    src: url(font/Antipasto-Pro-ExtraBold-trial.ttf);
+}
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: htt;
+}
+header{
+    background-color: #000;
+    position: fixed;
+    top:0 ;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 1;
+    
+}
+header ul li a:hover{
+    color: blueviolet;
+}
+
+header img{
+    position: relative;
+   
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color:  white;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}

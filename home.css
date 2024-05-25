@@ -1,0 +1,234 @@
+
+@font-face {
+    font-family: htt;
+    src: url(font/HTOWERT.TTF);
+}
+@font-face {
+    font-family: antiP;
+    src: url(font/Antipasto-Pro-ExtraBold-trial.ttf);
+}
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+}
+.header{
+   
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 111px;
+    
+}
+
+.Nav{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.Nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.Nav a:hover{
+    color: blueviolet;
+}
+
+
+.logo{
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 168px;
+    height: 43px;
+
+}
+
+
+
+.promotion{
+    width: 1280px;
+    height: 485px;
+    display: flex;
+    margin: auto;
+    
+    position: relative;
+}
+.promotion img{
+  
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.kotak1{
+  
+    position: absolute;
+    left: 5%;
+    bottom: 16%;
+}
+
+body{
+    background-color: black;
+}
+
+.footer{
+    font-family: htt;
+    color: white;
+    background-color: black;
+    width: 100vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-size: small;
+}
+
+
+
+.bawah{
+    padding-top: 10px;
+}
+
+.kananbawah{
+    padding-top: 10px;
+    text-align: left;
+}
+
+
+.body{
+   
+    
+    margin: auto;
+    width: 1280px;
+    height: 1202px;
+    background-color: white;
+}
+
+.TOP{
+    font-family: antiP;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 64px;
+    width: 1000px;
+}
+
+.konten{
+    padding-top: 150px;
+    height: 550px;
+    display: flex;
+   padding-left: 30px;
+}
+
+.bawahkonten{
+    font-family: antiP;
+    padding-top: 200px;
+    padding-left: 50px;
+    font-size: 48px;
+    width: 1000px;
+}
+
+.button{
+    display: flex;
+    width: 80vw;
+    gap: 100px;
+}
+
+.btn{
+   
+    font-family: htt;
+    font-size: 14px;
+    background-color:white;
+    color: black;
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    border: 1px solid #000000;
+    border-radius: 50px;
+   
+    cursor: pointer ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow,transform;
+    transition-property:box-shadow,transform;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+
+.btn2{
+   
+    font-family: htt;
+    font-size: 14px;
+    background-color:white;
+    color: black;
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    border: 1px solid #000000;
+    border-radius: 50px;
+   
+    cursor: pointer ;
+}
+
+
+
+
+
+
+.KONTENBAWAH{
+    display: flex;
+    margin: auto;
+    
+}
+
+.kotakhitam{
+    display: flex;
+    margin: auto;
+   
+    background-color: black;
+    gap: 130px;
+    padding-left: 40px;
+    
+    
+}
+
+
+    .text h2{
+    font-family: htt;
+    color: white;
+    font-style: normal;
+    font-size: 48px;
+    padding-top: 50px;
+    width: 200px;
+    margin-bottom: 40px; 
+}
+
+.gambarmi img{
+    width: 858px;
+    height: 720px;
+}
+
+@media (max-width: 768px) {
+    
+   
+
+
+   
+}

@@ -1,0 +1,117 @@
+@font-face {
+    font-family: htt;
+    src: url(font/HTOWERT.TTF);
+}
+@font-face {
+    font-family: antiP;
+    src: url(font/Antipasto-Pro-ExtraBold-trial.ttf);
+}
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: white;
+}
+
+.footer{
+    font-family: htt;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-size: small;
+}
+
+
+
+.bawah{
+    padding-top: 10px;
+}
+
+.kananbawah{
+    padding-top: 10px;
+    text-align: left;
+}
+
+.Judul{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.Judul h1{
+    
+    font-family: antiP;
+    color: black;
+    font-size: 48px;
+}
+
+.dalam img{
+    padding-top: 5%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    
+    
+
+    .footer{
+        font-family: htt;
+        color: white;
+        background-color:black;
+        width: 340vw;
+        height: 400vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 10px;
+        font-size: small;
+    }
+
+    .bawah{
+        padding-top: 10px;
+    }
+    
+    .kananbawah{
+        padding-top: 10px;
+        text-align: left;
+    }
+
+    .Judul h1{
+    
+        font-family: antiP;
+        color: black;
+        font-size: 48px;
+    }
+    
+    .Judul{
+        padding-top: 50%;
+        padding-bottom: 20%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+   
+}
+
